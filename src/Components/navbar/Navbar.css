@@ -1,0 +1,32 @@
+.btm-nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 69px;
+    background-color: #3f3a3c;
+}
+
+.btm-nav > li > button{
+    width: 69px;
+    height: 30px;
+    border-radius: 6%;
+    margin: 0 10px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.btm-nav > li > button:disabled{
+    background-color: #ffa1a1;
+}
+
+.btm-nav > li > button:disabled:hover{
+    background-color: #ffa1a1;
+}
+.btm-nav > li>button:hover{
+    background-color: #f5f7b2;
+}

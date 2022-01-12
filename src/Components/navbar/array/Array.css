@@ -1,0 +1,21 @@
+.list{
+    position: absolute;
+    bottom: 125px;
+    left: 2%;
+    list-style: none;
+    height: 630px;
+    display: flex ;
+    flex-direction: row;
+    align-items:flex-end;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: auto;
+}
+.bar{
+    width: 5px;
+    background-color: #e2d810;
+    margin: 0 5px;
+    margin: 0 0 0 0;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
