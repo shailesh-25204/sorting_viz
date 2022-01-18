@@ -1,0 +1,24 @@
+#title{
+    position: relative;
+    top: -55px;
+    color: #ffffff;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    font-family: 'Roboto Mono';
+    /* text-decoration-color: white; */
+}
+
+#copyright{
+    position: relative;
+    color: #ffffff;
+    font-family: 'Roboto Mono';
+    left:2%
+}
+#header{
+position: relative;
+font-weight: bold;
+top: 50px;
+margin-left: 4%;
+}

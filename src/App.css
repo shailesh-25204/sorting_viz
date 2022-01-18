@@ -1,13 +1,13 @@
 *{
   padding: 0;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
 }
-#main-display{
-  width: auto;
-  height: 100vh;
-  margin: 0 auto;
-  background-color: #12a4d9;
+body{
+   background-color: #8CC540;
 }
+
 
 /*
   #0444BF

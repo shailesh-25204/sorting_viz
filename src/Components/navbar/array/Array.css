@@ -1,6 +1,6 @@
 .list{
     position: absolute;
-    bottom: 125px;
+    bottom: 71px;
     left: 2%;
     list-style: none;
     height: 630px;
@@ -8,14 +8,29 @@
     flex-direction: row;
     align-items:flex-end;
     justify-content: space-evenly;
-    width: 70%;
+    box-sizing: border-box;
+    width: 96%;
     margin: auto;
+    z-index: 0;
 }
 .bar{
-    width: 5px;
-    background-color: #e2d810;
+    width: 6px;
+    z-index: 1;
+    transition: all 500ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    background-color: #A27D51;
     margin: 0 5px;
     margin: 0 0 0 0;
     border-top-left-radius: 100%;
     border-top-right-radius: 100%;
+    box-shadow: 2px 0px 3px 0px #365f00;
+}
+.highlight, .bar:hover{
+    transition: all 1ms cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    background-color: #9e7e58;
+    box-shadow: 5px 5px 3px 0px #424242;
+}
+@media only screen and (max-height: 700px) {
+    .list{
+        height: 75%;
+    }
 }

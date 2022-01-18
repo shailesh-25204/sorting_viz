@@ -1,7 +1,7 @@
-// 0 1 2| 3 4 |5 6 7 8 9
-export let animations = [];
+export let animationsOfMerge = [];
 
 export default function mergesort(array, beg, end) {
+    
     if (array.length === 1) { return array; }
     let mid = Math.floor(array.length / 2);
     let leftArray = mergesort(array.slice(0, mid), beg, beg + mid - 1);
@@ -11,13 +11,13 @@ export default function mergesort(array, beg, end) {
 
     while (i < leftArray.length && j < rightArray.length) {
         if (leftArray[i] < rightArray[j]) {
-            animations.push(
+            animationsOfMerge.push(
                 { comp: [beg + i, beg + mid + j] }
             )
             sortedArray.push(leftArray[i++])
         }
         else {
-            animations.push(
+            animationsOfMerge.push(
                 {
                     comp: [beg + i, beg + mid + j],
                     swap: [beg + i, beg + mid + j]
@@ -29,7 +29,7 @@ export default function mergesort(array, beg, end) {
     let a = i, b = j;
     while (a < leftArray.length - 1) {
         a++;
-        animations.push(
+        animationsOfMerge.push(
             { comp: [beg + a, beg + mid + rightArray.length - 1] }
         )
 
@@ -37,7 +37,7 @@ export default function mergesort(array, beg, end) {
 
     while (b < rightArray.length - 1) {
         b++;
-        animations.push(
+        animationsOfMerge.push(
             { comp: [beg + leftArray.length - 1, beg + mid + b] }
         )
     }
@@ -54,3 +54,10 @@ export default function mergesort(array, beg, end) {
 
 
 // [8, 20, 15, 44, 11, 33, 22, 9, 14, 10, 13]
+
+/*
+    stats of sorting,
+    info of sorting,
+    more things,
+    
+*/
