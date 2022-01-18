@@ -13,6 +13,6 @@ You can choose the size of the array between 5 - 250 elements and animation dela
 After Sorting , Time taken for the Sorting animation is displayed on the screen along with final animation delay. 
 Along with that, the site is responsive for almost all screen sizes.
 
-This is my First project in web development, so if you like it do give a ☆.
+This is my First project in web development, so if you like it do give a ★.
 
 ## Thanks
