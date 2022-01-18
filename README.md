@@ -15,4 +15,4 @@ Along with that, the site is responsive for almost all screen sizes.
 
 This is my First project in web development, so if you like it do give a ☆.
 
-##Thanks
+## Thanks
