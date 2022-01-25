@@ -4,7 +4,7 @@ A simple sorting Visualizer
 
 ## Get Started
 
-Just open the deployment page, and play around...
+Just open the deployment page --> https://shailesh-25204.github.io/sorting_viz/ and play around...
 
 Currently, 3 types of sorting algorithms are present namely Merge Sort, Quick Sort and Selection Sort
 
